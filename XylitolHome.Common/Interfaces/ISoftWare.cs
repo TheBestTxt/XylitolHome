@@ -4,7 +4,8 @@ using System.Text;
 
 namespace XylitolHome.Common.Interfaces
 {
-    class ISoftWare
+    public interface ISoftWare
     {
+        bool IsDeleted { get; set; }
     }
 }

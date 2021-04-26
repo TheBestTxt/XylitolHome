@@ -13,17 +13,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XylitolHome.Application", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XylitolHome.Infrastructure", "XylitolHome.Infrastructure", "{CFA91A9C-BE28-4C1D-B3B3-3B68439F5A19}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XylitolHome.CoreLibrary", "XylitolHome.CoreLibrary", "{C7E0D587-1647-4847-8709-64B9D0E01A46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XylitolHome.Web", "XylitolHome.Web\XylitolHome.Web.csproj", "{DF51F9A1-B3C3-469B-97B6-80B920BD250D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XylitolHome.Web", "XylitolHome.Web\XylitolHome.Web.csproj", "{DF51F9A1-B3C3-469B-97B6-80B920BD250D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XylitolHome.Common", "XylitolHome.Common\XylitolHome.Common.csproj", "{12C94F11-9FDD-455A-9FDE-3EB6B4D354CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XylitolHome.Common", "XylitolHome.Common\XylitolHome.Common.csproj", "{12C94F11-9FDD-455A-9FDE-3EB6B4D354CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XylitolHome.Common.Dto", "XylitolHome.Common.Dto\XylitolHome.Common.Dto.csproj", "{4EE26A7A-010C-4C43-A6D6-8528813D3C62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XylitolHome.Common.Dto", "XylitolHome.Common.Dto\XylitolHome.Common.Dto.csproj", "{4EE26A7A-010C-4C43-A6D6-8528813D3C62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XylitolHome.Domain.IService", "XylitolHome.Domain\XylitolHome.Domain.IService.csproj", "{228FC64B-2626-4221-AE3E-FAFC68FF53AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XylitolHome.Domain", "XylitolHome.Domain\XylitolHome.Domain.csproj", "{228FC64B-2626-4221-AE3E-FAFC68FF53AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XylitolHome.Application", "XylitolHome.Application\XylitolHome.Application.csproj", "{50859455-00A8-487C-AA43-C7724BA92C9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XylitolHome.Application", "XylitolHome.Application\XylitolHome.Application.csproj", "{50859455-00A8-487C-AA43-C7724BA92C9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XylitolHome.Domain.Entity", "XylitolHome.Domain.Entity\XylitolHome.Domain.Entity.csproj", "{5E311F4E-423F-4D19-B20E-773C68D837F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XylitolHome.Domain.IRepository", "XylitolHome.Domain.IRepository\XylitolHome.Domain.IRepository.csproj", "{2364BE3A-6C9D-4B8D-87A2-2CB5C175B113}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XylitolHome.Infrastructrue.Repository", "XylitolHome.Infrastructrue.Repository\XylitolHome.Infrastructrue.Repository.csproj", "{58C27099-3D2B-4F11-9E8D-42F2B410ADBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XylitolHome.Infrastructure.Service", "XylitolHome.Infrastructure.Service\XylitolHome.Infrastructure.Service.csproj", "{B03EDC7B-B913-4DD9-B3C4-BC9D9B8D79AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,22 @@ Global
 		{50859455-00A8-487C-AA43-C7724BA92C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50859455-00A8-487C-AA43-C7724BA92C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50859455-00A8-487C-AA43-C7724BA92C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E311F4E-423F-4D19-B20E-773C68D837F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E311F4E-423F-4D19-B20E-773C68D837F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E311F4E-423F-4D19-B20E-773C68D837F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E311F4E-423F-4D19-B20E-773C68D837F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2364BE3A-6C9D-4B8D-87A2-2CB5C175B113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2364BE3A-6C9D-4B8D-87A2-2CB5C175B113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2364BE3A-6C9D-4B8D-87A2-2CB5C175B113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2364BE3A-6C9D-4B8D-87A2-2CB5C175B113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C27099-3D2B-4F11-9E8D-42F2B410ADBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C27099-3D2B-4F11-9E8D-42F2B410ADBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C27099-3D2B-4F11-9E8D-42F2B410ADBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C27099-3D2B-4F11-9E8D-42F2B410ADBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B03EDC7B-B913-4DD9-B3C4-BC9D9B8D79AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03EDC7B-B913-4DD9-B3C4-BC9D9B8D79AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03EDC7B-B913-4DD9-B3C4-BC9D9B8D79AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03EDC7B-B913-4DD9-B3C4-BC9D9B8D79AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,12 +82,15 @@ Global
 		{15EA5ACD-1E04-4BB8-963C-06C171013893} = {B95605D6-3801-4CD6-BD94-A5CD168390B6}
 		{B72B5C9A-1C2E-42BC-9CAD-933D975A1C62} = {B95605D6-3801-4CD6-BD94-A5CD168390B6}
 		{CFA91A9C-BE28-4C1D-B3B3-3B68439F5A19} = {B95605D6-3801-4CD6-BD94-A5CD168390B6}
-		{C7E0D587-1647-4847-8709-64B9D0E01A46} = {B95605D6-3801-4CD6-BD94-A5CD168390B6}
 		{DF51F9A1-B3C3-469B-97B6-80B920BD250D} = {A226ED6B-FAAB-450D-BA69-B98C6B26079B}
 		{12C94F11-9FDD-455A-9FDE-3EB6B4D354CA} = {CFA91A9C-BE28-4C1D-B3B3-3B68439F5A19}
 		{4EE26A7A-010C-4C43-A6D6-8528813D3C62} = {CFA91A9C-BE28-4C1D-B3B3-3B68439F5A19}
 		{228FC64B-2626-4221-AE3E-FAFC68FF53AA} = {15EA5ACD-1E04-4BB8-963C-06C171013893}
 		{50859455-00A8-487C-AA43-C7724BA92C9D} = {B72B5C9A-1C2E-42BC-9CAD-933D975A1C62}
+		{5E311F4E-423F-4D19-B20E-773C68D837F5} = {15EA5ACD-1E04-4BB8-963C-06C171013893}
+		{2364BE3A-6C9D-4B8D-87A2-2CB5C175B113} = {15EA5ACD-1E04-4BB8-963C-06C171013893}
+		{58C27099-3D2B-4F11-9E8D-42F2B410ADBB} = {CFA91A9C-BE28-4C1D-B3B3-3B68439F5A19}
+		{B03EDC7B-B913-4DD9-B3C4-BC9D9B8D79AC} = {CFA91A9C-BE28-4C1D-B3B3-3B68439F5A19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F114008-4EAA-42D6-9496-668F7FA2F79C}
