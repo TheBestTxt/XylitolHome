@@ -4,15 +4,15 @@ using System.Text;
 
 namespace XylitolHome.Common.Interfaces
 {
-    public interface IEntity
+    public class Entity
     {
         /// <summary>
         /// 实体主键
         /// </summary>
-        Guid ID { get; set; }
+        public Guid Id { get; set; }
         /// <summary>
         /// 最后修改时间
         /// </summary>
-        DateTime LastEditTime { get; set; }
+        public DateTime LastEditTime { get; set; }
     }
 }

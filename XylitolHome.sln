@@ -23,13 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XylitolHome.Domain.IService
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XylitolHome.Application", "XylitolHome.Application\XylitolHome.Application.csproj", "{50859455-00A8-487C-AA43-C7724BA92C9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XylitolHome.Domain.Entity", "XylitolHome.Domain.Entity\XylitolHome.Domain.Entity.csproj", "{5E311F4E-423F-4D19-B20E-773C68D837F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XylitolHome.Domain.Entities", "XylitolHome.Domain.Entity\XylitolHome.Domain.Entities.csproj", "{5E311F4E-423F-4D19-B20E-773C68D837F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XylitolHome.Domain.IRepository", "XylitolHome.Domain.IRepository\XylitolHome.Domain.IRepository.csproj", "{2364BE3A-6C9D-4B8D-87A2-2CB5C175B113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XylitolHome.Domain.IRepository", "XylitolHome.Domain.IRepository\XylitolHome.Domain.IRepository.csproj", "{2364BE3A-6C9D-4B8D-87A2-2CB5C175B113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XylitolHome.Infrastructrue.Repository", "XylitolHome.Infrastructrue.Repository\XylitolHome.Infrastructrue.Repository.csproj", "{58C27099-3D2B-4F11-9E8D-42F2B410ADBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XylitolHome.Infrastructrue.Repository", "XylitolHome.Infrastructrue.Repository\XylitolHome.Infrastructrue.Repository.csproj", "{58C27099-3D2B-4F11-9E8D-42F2B410ADBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XylitolHome.Infrastructure.Service", "XylitolHome.Infrastructure.Service\XylitolHome.Infrastructure.Service.csproj", "{B03EDC7B-B913-4DD9-B3C4-BC9D9B8D79AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XylitolHome.Infrastructure.Service", "XylitolHome.Infrastructure.Service\XylitolHome.Infrastructure.Service.csproj", "{B03EDC7B-B913-4DD9-B3C4-BC9D9B8D79AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

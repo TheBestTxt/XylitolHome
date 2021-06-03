@@ -12,7 +12,7 @@ namespace XylitolHome.Web.Controller
         [HttpGet]
         public string Index()
         {
-            return "Hello World!";
+            return "Hello World";
         }
     }
 }
