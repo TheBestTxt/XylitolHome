@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\XylitolHome.Domain.Dto\XylitolHome.Domain.Dto.csproj" />
     <ProjectReference Include="..\XylitolHome.Domain.Entity\XylitolHome.Domain.Entities.csproj" />
     <ProjectReference Include="..\XylitolHome.Domain.IRepository\XylitolHome.Domain.IRepository.csproj" />
   </ItemGroup>

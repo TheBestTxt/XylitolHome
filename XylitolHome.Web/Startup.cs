@@ -29,6 +29,7 @@ namespace XylitolHome.Web
             });
             services.AddScoped<IBaseRepository, BaseRepository>();
             services.AddScoped<IUserApplication, UserApplication>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllers().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
         }
 

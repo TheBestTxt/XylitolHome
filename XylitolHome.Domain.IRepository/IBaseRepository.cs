@@ -20,5 +20,7 @@ namespace XylitolHome.Domain.IRepository
         TEntity FirstOrDefault<TEntity>(Expression<Func<TEntity, bool>> where) where TEntity : class, IEntity, new();
 
         Task<TEntity> FirstOrDefaultAsync<TEntity>(Expression<Func<TEntity, bool>> where) where TEntity : class, IEntity, new();
+
+        void Entry<TEntity>(TEntity entity) where TEntity : class, IEntity, new();
     }
 }

@@ -46,6 +46,11 @@ namespace XylitolHome.Infrastructrue.Repository.Mapping
                 .HasColumnName("CreateDate")
                 .HasColumnType(ColumnType.DATETIME)
                 .HasDefaultValue(DateTime.Now);
+
+            builder.Property(a => a.Account)
+                .HasColumnName("Account")
+                .HasColumnType(ColumnType.VARCHAR)
+                .HasMaxLength(50);
         }
     }
 }

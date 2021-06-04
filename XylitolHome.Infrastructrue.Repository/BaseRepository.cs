@@ -48,5 +48,10 @@ namespace XylitolHome.Infrastructrue.Repository
         {
             return await _dbContext.Set<TEntity>().FirstOrDefaultAsync(where);
         }
+
+       public void Entry<TEntity>(TEntity entity) where TEntity : class, IEntity, new()
+        {
+            _dbContext.Entry(entity).;
+        }
     }
 }
