@@ -3,10 +3,8 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\XylitolHome.Domain.Entity\XylitolHome.Domain.Entities.csproj" />
-  </ItemGroup>
 
 </Project>

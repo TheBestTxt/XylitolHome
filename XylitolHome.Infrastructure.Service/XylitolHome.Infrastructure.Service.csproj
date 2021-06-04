@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\XylitolHome.Domain.IRepository\XylitolHome.Domain.IRepository.csproj" />
+    <ProjectReference Include="..\XylitolHome.Domain\XylitolHome.Domain.IService.csproj" />
+  </ItemGroup>
+
 </Project>

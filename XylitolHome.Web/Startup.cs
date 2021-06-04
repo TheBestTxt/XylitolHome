@@ -4,7 +4,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using XylitolHome.Domain.IRepository;
+using XylitolHome.Domain.IService;
 using XylitolHome.Infrastructrue.Repository;
+using XylitolHome.Infrastructure.Service;
 
 namespace XylitolHome.Web
 {
@@ -24,6 +27,8 @@ namespace XylitolHome.Web
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+            services.AddScoped<IBaseRepository, BaseRepository>();
+            services.AddScoped<IUserApplication, UserApplication>();
             services.AddControllers().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
         }
 
